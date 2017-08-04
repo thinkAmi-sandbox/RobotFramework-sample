@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    <!--page contain系やテキストの確認-->
+    <p id="hello">Hello, world!</p>
+
+    <!--liの件数確認-->
+    <ul>
+        <li class="element_count1">エレメント</li>
+        <li class="element_count2">エレメント</li>
+        <li class="element_count3">エレメント</li>
+    </ul>
+
+    <!--get textした時に、strongやemが無視される件-->
+    <div>
+        <p id="get_text">prefix-normal <strong>prefix-strong <em>em-text </em>suffix-strong </strong>suffix-normal</p>
+    </div>
+
+
+    <!--locatorの確認-->
+    <!--http://robotframework.org/Selenium2Library/Selenium2Library.html-->
+    <button id="locator_id" name="locator_name" class="locator_class">locator_text1</button>
+    <button class="locator_class" data-hoge="ham spam" disabled>locator_text2</button>
+    <button class="locator_class_foo" data-hoge="ham egg">locator_text3</button>
+    <button class="locator_class_foo" data-hoge="ham spam">locator_text4</button>
+
+    <div id="locator_css">
+        <ul><li>1-1</li></ul>
+        <ul>
+            <li>2-1</li>
+            <li>2-2</li>
+            <li><p>対象</p></li>
+        </ul>
+        <ul><li>3-1</li></ul>
+    </div>
+
+    <img id="img_200" src="/static/image/a.png" alt="あの字" title="画像タイトル">
+
+    <!--locatorでjqueryを使う場合、html側にjqueryを読み込む設定が必要-->
+    <!--https://github.com/robotframework/Selenium2Library/issues/262-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <!--visibleとenableとdisableの違い-->
+    <button id="element_display_none" style="display: none">None</button>
+    <button id="element_visibility_hidden" style="visibility: hidden">Hidden</button>
+    <button id="element_disabled" disabled>Disabled</button>
+
+
+    <!--テーブル検索-->
+    <div id="table_search">
+        <table>
+            <tr>
+                <th>key</th>
+                <th>value</th>
+            </tr>
+            <tr>
+                <td>一行目のキー</td>
+                <td>一行目の値</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>項目</th>
+                <th>値</th>
+            </tr>
+            <tr>
+                <td>項目1</td>
+                <td>値1</td>
+            </tr>
+            <tr>
+                <td>項目2</td>
+                <td>値2</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--イメージファイルが本当に存在するか-->
+    <img id="img_404" src="/static/image/i.png" alt="いの字" title="画像タイトル2">
+
+    <!--visibleな時のみ何かする-->
+    <button id="visible_button">見えてる</button>
+    <button id="invisible_button" style="display: none">見えてない</button>
+
+</body>
+</html>
