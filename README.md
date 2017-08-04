@@ -3,7 +3,7 @@
 ## Tested environment
 
 - Mac OS X 10.11.6
-- Python 3.6.1
+- Python 3.6.2
 - Google Chrome 60.0.3112.78 (stable)
 - chromedriver 2.31 (stable)
 - RobotFramework 3.0.2
@@ -15,3 +15,4 @@
 - [受け入れテストのフレームワークRobot Frameworkで、組込機能であるBuiltin Libraryを使ってみた - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/07/13/225814)
 - [Robot FrameworkでHeadless Chromeを使ってみた - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/07/14/125643)
 - [Robot Framework + Selenium2Library + ImageMagickで、スクリーンショットの差分を確認する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/07/27/224049)
+- [Robot Framework + Selenium2Libraryで、静的HTMLをテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/05/071504)
