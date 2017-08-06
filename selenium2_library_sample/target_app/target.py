@@ -29,6 +29,11 @@ def post_form():
     }
 
 
+@get('/js')
+def get_js():
+    return jinja2_template('js')
+
+
 # BottleのWildcard Filterを使うことで、サブディレクトリも探してくれる
 # https://bottlepy.org/docs/dev/routing.html
 @route('/static/<filename:path>')

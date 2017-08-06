@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScriptテスト</title>
+</head>
+<body>
+    <div id="js_page">
+        <!--3秒くらいたったらエレメントが出てくるJS-->
+        <div id="show_delay"></div>
+        <!--JSのアラートを押す方法-->
+        <button id="show_alert">警告</button>
+
+        <button id="wait_alert">2秒後に警告</button>
+
+        <button id="show_confirm">確認</button>
+
+        <button id="show_prompt">入力</button>
+
+        <!--リロードされているかのテスト-->
+        <!--ボタンを押したらリロードするようなJSを書く-->
+        <button id="run_reload" class="reload_element">リロード</button>
+
+
+        <!--display:noneなボタンをクリックするテスト-->
+        <!--ボタンが押されたらJSが画面遷移するようなJSを書く-->
+        <div>見えないボタンがあるあたり
+            <button id="display_none" style="display: none;">見えない</button>
+        </div>
+
+
+        <!--マウスオーバーされたらボタンが現れるテスト-->
+        <div id="on_mouse_area">このあたりをマウスオーバーするとボタンが見える
+            <button id="mouse_target" style="display: none;">mouseoverのみ見える</button>
+        </div>
+
+        <div class="bottom" style="padding-top: 1200px">
+            <button id="bottom_button">下にあるボタン</button>
+        </div>
+    </div>
+
+    <script src="/static/js/content.js"></script>
+</body>
+</html>
