@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>例</title>
+</head>
+
+<body>
+<h1>フォームサンプル(POST)</h1>
+
+<div>
+    <a id="back_to_top" href="/">トップへ戻る</a>
+</div>
+
+<div>
+    <form id="id_form" action="/form" method="POST">
+        <!--input text-->
+        <label for="id_subject">件名</label>
+        <input type="text" id="id_subject" name="subject">
+
+        <!--password-->
+        <label for="id_password">合言葉</label>
+        <input type="password" id="id_password" name="aikotoba">
+
+        <!--radio button-->
+        <p>
+            <label for="id_apple">リンゴ</label>
+            <input id="id_apple" type="radio" name="fruit" value="りんご">
+            <label for="id_mandarin">ミカン</label>
+            <input id="id_mandarin" type="radio" name="fruit" value="みかん">
+            <label for="id_grape">ブドウ</label>
+            <input id="id_grape" type="radio" name="fruit" value="ぶどう">
+        </p>
+        <p>
+            <label for="id_big">大</label>
+            <input id="id_big" type="radio" name="fruit_size" value="大きいもの">
+            <label for="id_small">小</label>
+            <input id="id_small" type="radio" name="fruit_size" value="小さいもの">
+        </p>
+
+        <!--select-->
+        <p>
+            <label for="id_quantity">個数</label>
+            <select id="id_quantity" name="quantity">
+                <option id="id_selected1_1" name="select1_1" value="1個">1</option>
+                <option id="id_selected1_2" name="select1_2" value="2個">2</option>
+                <option id="id_selected1_3" name="select1_3" value="3個">3</option>
+            </select>
+        </p>
+
+        <!--select multiple-->
+        <p>
+            <label for="id_accessories">付属品</label>
+            <select id="id_accessories" name="accessories" multiple>
+                <option id="id_selected2_1" name="select2_1" value="paper">紙</option>
+                <option id="id_selected2_2" name="select2_2" value="box">容器</option>
+                <option id="id_selected2_3" name="select2_3" value="rope">ロープ</option>
+            </select>
+        </p>
+
+        <!--checkbox-->
+        <p>
+            <label for="id_takeout">持ち帰る</label>
+            <input type="checkbox" id="id_takeout" name="takeout" value="自分で持ち帰る">
+        </p>
+        <p>
+            <label for="id_gift">贈り物</label>
+            <input type="checkbox" id="id_gift" name="gift" value="贈り物にする">
+        </p>
+
+        <!--hidden-->
+        <input type="hidden" id="id_hidden_value" class="hidden_class" name="hidden_value" value="隠しデータ">
+
+        <!--textarea-->
+        <label for="id_memo">メモ</label>
+        <textarea id="id_memo" name="memo"></textarea>
+
+        <!--submit-->
+        <p>
+            <input id="id_submit" type="submit">
+        </p>
+    </form>
+</div>
+</body>
+</html>

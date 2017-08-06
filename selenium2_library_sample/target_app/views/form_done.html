@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>POST結果</title>
+</head>
+
+<body>
+<h1>フォームPOST結果</h1>
+
+<!--request.forms.nameの形でフォームのフィールドを読み込める-->
+<div id="form_values">
+    <dl>
+        <dt>input=text (件名)</dt>
+        <dd id="subject">{{forms.subject}}</dd>
+    </dl>
+    <dl>
+        <dt>input=password (合言葉)</dt>
+        <dd id="aikotoba">{{forms.aikotoba}}</dd>
+    </dl>
+    <dl>
+        <dt>type=radio (フルーツ, 大きさ)</dt>
+        <dd id="fruit">{{forms.fruit}}</dd>
+        <dd id="fruit_size">{{forms.fruit_size}}</dd>
+    </dl>
+    <dl>
+        <dt>select (数量)</dt>
+        <dd id="quantity">{{forms.quantity}}</dd>
+    </dl>
+    <dl>
+        <dt>select multiple (付属品)</dt>
+        <dd id="accessories">{{forms.decode('utf-8').getall('accessories')}}</dd>
+    </dl>
+    <dl>
+        <dt>checkbox (持ち帰り, 贈り物)</dt>
+        <dd id="takeout">{{forms.takeout}}</dd>
+        <dd id="gift">{{forms.gift}}</dd>
+    </dl>
+    <dl>
+        <dt>hidden (隠しフィールド)</dt>
+        <dd id="hidden_field">{{forms.hidden_value}}</dd>
+    </dl>
+    <dl>
+        <dt>textarea (メモ)</dt>
+        <dd id="memo">{{forms.memo}}</dd>
+    </dl>
+</div>
+</body>
+</html>

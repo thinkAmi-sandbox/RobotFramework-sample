@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from bottle import route, get, run, static_file, TEMPLATE_PATH
+from bottle import route, get, run, static_file, TEMPLATE_PATH, jinja2_view, post, request
 
 # jinja2テンプレートを使う場合、bottleのjinaj2_template関数を使う
 from bottle import jinja2_template
@@ -14,6 +14,19 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 @get('/')
 def index():
     return jinja2_template('index')
+
+
+@get('/form')
+def get_form():
+    return jinja2_template('form')
+
+
+@post('/form')
+@jinja2_view('form_done.html')
+def post_form():
+    return {
+        'forms': request.forms,
+    }
 
 
 # BottleのWildcard Filterを使うことで、サブディレクトリも探してくれる
