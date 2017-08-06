@@ -225,7 +225,7 @@ HeadlessなChromeのテスト
     # 「ElementNotVisibleException: Message: element not visible」エラー
     「スクロールしてクリックする」が失敗するのを確認する
 
-    # Chrome v61の場合、alert系は失敗する(There were no alerts)
+    # Chrome v60の場合、alert系は失敗する(There were no alerts)
     # PhantomJSも同様に、alert系は失敗する
     「JSのalertでOKを押す」が失敗するのを確認する
     「JSのalertでメッセージを取得してOKを押す」が失敗するのを確認する
