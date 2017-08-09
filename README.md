@@ -18,3 +18,4 @@
 - [Robot Framework + Selenium2Libraryで、静的HTMLをテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/05/071504)
 - [Robot Framework + Selenium2Libraryで、HTMLフォームまわりをテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/06/094230)
 - [Robot Framework + Selenium2Libraryで、HTML + JavaScriptまわりをテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/07/082117)
+- [Robot Framework + Selenium2Library + robotframework-requestsで、静的ファイルが本当にあるのか確認する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/09/210813)

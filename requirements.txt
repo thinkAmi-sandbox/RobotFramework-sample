@@ -1,0 +1,12 @@
+bottle==0.12.13
+certifi==2017.7.27.1
+chardet==3.0.4
+idna==2.5
+Jinja2==2.9.6
+MarkupSafe==1.0
+requests==2.18.3
+robotframework==3.0.2
+robotframework-requests==0.4.7
+robotframework-selenium2library==3.0.0.dev1
+selenium==3.4.3
+urllib3==1.22
