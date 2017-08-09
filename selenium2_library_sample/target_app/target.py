@@ -34,6 +34,11 @@ def get_js():
     return jinja2_template('js')
 
 
+@get('/image-exist')
+def exist_test_using_request_library():
+    return jinja2_template('image_exist')
+
+
 # BottleのWildcard Filterを使うことで、サブディレクトリも探してくれる
 # https://bottlepy.org/docs/dev/routing.html
 @route('/static/<filename:path>')
