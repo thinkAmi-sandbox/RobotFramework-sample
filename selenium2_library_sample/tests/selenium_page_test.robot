@@ -11,7 +11,7 @@ Test Teardown  ブラウザを終了する
 *** Keywords ***
 ブラウザを起動してindexへ移動する
     create webdriver  Chrome
-    go to  localhost:8084
+    go to  http://localhost:8084
 
 
 ブラウザを終了する

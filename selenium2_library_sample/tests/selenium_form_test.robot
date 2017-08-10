@@ -52,7 +52,7 @@ ${INPUT_TEXT}  件名を入力する
 フォームページへ移動する
     # フォームページにいないなら移動する
     ${成否} =  run keyword and return status  フォームページにいることを確認する
-    run keyword unless  ${成否}  go to  localhost:8084/form
+    run keyword unless  ${成否}  go to  http://localhost:8084/form
 
 フォームページにいることを確認する
     page should contain element  id=id_form
