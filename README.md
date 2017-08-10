@@ -20,4 +20,5 @@
 - [Robot Framework + Selenium2Libraryで、HTML + JavaScriptまわりをテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/07/082117)
 - [Robot Framework + Selenium2Library + robotframework-requestsで、静的ファイルが本当にあるのか確認する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/09/210813)
 - [Robot Framework + Selenium2Libraryで、「Go To」を使う時はURIスキームを付ける - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/10/065633)
+- [Robot Frameworkにて使える時間のフォーマットについて調べてみた - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/11/074411)
 
