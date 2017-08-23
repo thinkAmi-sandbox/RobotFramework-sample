@@ -23,6 +23,7 @@ Library  Selenium2Library
         wait until page contains element  xpath=//*[@id="settingsTable"]/tbody/tr/td[2]/input
         click element  xpath=//*[@id="settingsTable"]/tbody/tr/td[2]/input
         # site filterに入力する
+        # 今回は、「http://localhost:8084/referer/target」というサイトであればリファラを書き換える
         input text     xpath=//*[@id="settingsTable"]/tbody/tr/td[2]/input  http://localhost:8084/referer/target
         # Customボタンを押す
         click element  xpath=//*[@id="settingsTable"]/tbody/tr/td[8]
