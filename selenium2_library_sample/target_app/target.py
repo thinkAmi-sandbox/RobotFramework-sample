@@ -39,6 +39,13 @@ def exist_test_using_request_library():
     return jinja2_template('image_exist')
 
 
+@get('/referer/target')
+@get('/referer/exclude')
+def get_referer_target():
+    referer = request.get_header('Referer')
+    return f'<p id="referer">Referer: {referer}</p>'
+
+
 # BottleのWildcard Filterを使うことで、サブディレクトリも探してくれる
 # https://bottlepy.org/docs/dev/routing.html
 @route('/static/<filename:path>')
