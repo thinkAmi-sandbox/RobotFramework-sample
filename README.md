@@ -24,3 +24,4 @@
 - [Robot Framework + Selenium2Libraryで、「Go To」を使う時はURIスキームを付ける - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/10/065633)
 - [Robot Frameworkにて使える時間のフォーマットについて調べてみた - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/11/074411)
 - [Robot Framework + Selenium2Libraryで、リファラを書き換えるChrome拡張をWebDriverに入れてテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/23/235549)
+- [RobotFramework + SeleniumLibraryにて、Android実機上のChromeを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/02/063314)
