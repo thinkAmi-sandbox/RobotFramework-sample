@@ -1,7 +1,7 @@
 *** Settings ***
 
 # Libraryは大文字小文字の区別があるようで、libraryとしてしまうとIDEが認識しない
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 
 Test Setup  ブラウザを起動してindexへ移動する

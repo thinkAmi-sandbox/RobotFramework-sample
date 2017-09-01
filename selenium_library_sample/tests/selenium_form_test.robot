@@ -1,6 +1,6 @@
 *** Settings ***
 
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 # テストごとにブラウザを開く
 Test Setup  create webdriver  Chrome

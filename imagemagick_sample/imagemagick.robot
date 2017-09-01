@@ -5,7 +5,7 @@
 # $ brew install imagemagick
 
 # Libraryは大文字小文字の区別があるようで、libraryとしてしまうとIDEが認識しない
-Library  Selenium2Library
+Library  SeleniumLibrary
 # Runキーワードのために、OperatingSystemライブラリを使う
 # http://robotframework.org/robotframework/latest/libraries/OperatingSystem.html
 Library  OperatingSystem

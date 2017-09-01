@@ -1,6 +1,6 @@
 *** Settings ***
 
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 
 Test Teardown  close all browsers

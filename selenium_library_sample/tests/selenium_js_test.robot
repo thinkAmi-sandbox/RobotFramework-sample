@@ -1,5 +1,5 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 # テストごとにブラウザを閉じてキャッシュをリセットする
 # http://robotframework.org/Selenium2Library/Selenium2Library.html#Close%20All%20Browsers

@@ -4,10 +4,12 @@
 
 - Mac OS X 10.11.6
 - Python 3.6.2
-- Google Chrome 60.0.3112.78 (stable)
+- Google Chrome 60.0.3112.113 (stable)
 - chromedriver 2.31 (stable)
 - RobotFramework 3.0.2
-- Selenium2Library 1.8.1dev1
+- SeleniumLibrary 3.0.0a2
+  - version 3.x ~, Library Name is `SeleniumLibrary`
+  - ~ version 1.8.x, Library Name is `Selenium2Library`
 
 　  
 ## Related Blog (Written in Japanese)
