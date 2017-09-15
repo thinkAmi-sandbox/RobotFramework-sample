@@ -25,3 +25,4 @@
 - [Robot Frameworkにて使える時間のフォーマットについて調べてみた - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/11/074411)
 - [Robot Framework + Selenium2Libraryで、リファラを書き換えるChrome拡張をWebDriverに入れてテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/08/23/235549)
 - [RobotFramework + SeleniumLibraryにて、Android実機上のChromeを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/02/063314)
+- [RobotFramework + SeleniumLibraryで、iOSシミュレータ上のSafariブラウザでテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/15/222958)
