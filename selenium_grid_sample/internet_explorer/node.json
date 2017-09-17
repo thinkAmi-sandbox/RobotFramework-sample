@@ -1,0 +1,17 @@
+{
+  "capabilities": [
+    {
+      "browserName": "internet explorer",
+      "platform": "WINDOWS",
+      "maxInstances": 1,
+      "cleanSession": true ,
+      "version": "11",
+      "browser-version": "11",
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "hub": "http://192.168.10.103:4444/grid/register",
+  "host": "192.168.10.107",
+  "port": 5054,
+  "register": true
+}
