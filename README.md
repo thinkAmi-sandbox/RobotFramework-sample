@@ -27,3 +27,4 @@
 - [RobotFramework + SeleniumLibraryにて、Android実機上のChromeを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/02/063314)
 - [RobotFramework + SeleniumLibraryで、iOSシミュレータ上のSafariブラウザでテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/15/222958)
 - [SeleniumGrid + RobotFramework + SeleniumLibraryで、VMのWindowsのInternet Explorerを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/17/225302)
+- [RobotFramework + SeleniumLibrary + Appiumにて、Genymotion上のChromeを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/28/215246)
