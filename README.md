@@ -3,11 +3,11 @@
 ## Tested environment
 
 - Mac OS X 10.11.6
-- Python 3.6.2
-- Google Chrome 60.0.3112.113 (stable)
-- chromedriver 2.31 (stable)
+- Python 3.6.3
+- Google Chrome 62.0.3202.94 (stable)
+- chromedriver 2.33 (stable)
 - RobotFramework 3.0.2
-- SeleniumLibrary 3.0.0a2
+- SeleniumLibrary 3.0.0
   - version 3.x ~, Library Name is `SeleniumLibrary`
   - ~ version 1.8.x, Library Name is `Selenium2Library`
 
@@ -28,3 +28,4 @@
 - [RobotFramework + SeleniumLibraryで、iOSシミュレータ上のSafariブラウザでテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/15/222958)
 - [SeleniumGrid + RobotFramework + SeleniumLibraryで、VMのWindowsのInternet Explorerを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/17/225302)
 - [RobotFramework + SeleniumLibrary + Appiumにて、Genymotion上のChromeを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/28/215246)
+- [Mac/Windowsでゼロから始めるRobot Framework + SeleniumLibrary - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/03/100540)
