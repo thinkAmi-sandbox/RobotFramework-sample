@@ -29,3 +29,5 @@
 - [SeleniumGrid + RobotFramework + SeleniumLibraryで、VMのWindowsのInternet Explorerを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/17/225302)
 - [RobotFramework + SeleniumLibrary + Appiumにて、Genymotion上のChromeを使ってテストする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/09/28/215246)
 - [Mac/Windowsでゼロから始めるRobot Framework + SeleniumLibrary - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/03/100540)
+- [Robot Framework + SeleniumLibrary + Selenium3.8以降でHeadless Chromeを動かす - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/05/204221)
+- [Robot Framework + SeleniumLibraryで、Headless Firefoxを動かす - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/06/061600)
