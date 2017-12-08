@@ -31,3 +31,5 @@
 - [Mac/Windowsでゼロから始めるRobot Framework + SeleniumLibrary - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/03/100540)
 - [Robot Framework + SeleniumLibrary + Selenium3.8以降でHeadless Chromeを動かす - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/05/204221)
 - [Robot Framework + SeleniumLibraryで、Headless Firefoxを動かす - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/06/061600)
+- [Robot Frameworkのライブラリを自作する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/07/072203)
+- [Robot Frameworkにおける変数定義と優先順について - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/12/09/081202)
