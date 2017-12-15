@@ -11,7 +11,7 @@ ${timing}時刻を出力する
 
 *** TestCases ***
 ハローワールドする
-    # ファイル読み込み開始
+    # ファイルの参照開始
     ${valueset_name} =  Acquire Value Set
     開始時刻を出力する
 
@@ -19,6 +19,6 @@ ${timing}時刻を出力する
     ${hello} =  Get Value From Set  hello
     Log To Console  ${hello}
 
-    # ファイル読み込み終了
+    # ファイルの参照終了
     Release Value Set
     終了時刻を出力する
