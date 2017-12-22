@@ -38,4 +38,4 @@ Library  FakerLibrary  locale=ja_JP
 
 適当な文を作成する
     ${paragraph} =  FakerLibrary.Paragraph
-    Log To Console  ${paragraph}
+    Log To Console  ${\n}${paragraph}
